@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="col-12 pole" style="background-image: url(pole.png); background-size: 100% 100%; height: 600px;"></div>
+	<div class="game" style=" display: none;">
+		<div class="container" style="background: green; margin-top: 20px; width: 500px;">
+			<h2 class="text-center">Какое животное превратилось в котенка в мультфильме «Котенок с улицы Лизюкова»?</h2>
+		</div>
+		<div class="container" style="height: 150px; background: black; width: 490px; margin-top: 30px;">
+			<div class="row">
+				<div class="border text-center py-5 b01" style="width: 70px; height: 150px; background: black;">
+					<h1 class="text-black-50">Б</h1>
+				</div>
+				<div class="border text-center py-5 b02" style="width: 70px; height: 150px; background: black;">
+					<h1 class="text-black-50">Е</h1>
+				</div>
+				<div class="border text-center py-5 b03" style="width: 70px; height: 150px; background: black;">
+					<h1 class="text-black-50">Г</h1>
+				</div>
+				<div class="border text-center py-5 b07" style="width: 70px; height: 150px; background: black;">
+					<h1 class="text-black-50">Е</h1>
+				</div>
+				<div class="border text-center py-5 b04" style="width: 70px; height: 150px; background: black;">
+					<h1 class="text-black-50">М</h1>
+				</div>
+				<div class="border text-center py-5 b05" style="width: 70px; height: 150px; background: black;">
+					<h1 class="text-black-50">О</h1>
+				</div>
+				<div class="border text-center py-5 b06" style="width: 70px; height: 150px; background: black;">
+					<h1 class="text-black-50">Т</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="width: 500px;">
+			<span class="b1">А</span>
+			<span class="b2">Б</span>
+			<span class="b3">В</span>
+			<span class="b4">Г</span>
+			<span class="b5">Д</span>
+			<span class="b6">Е</span>
+			<span class="b7">Ё</span>
+			<span class="b8">Ж</span>
+			<span class="b9">З</span>
+			<span class="b10">И</span>
+			<span class="b11">Й</span>
+			<span class="b12">К</span>
+			<span class="b13">Л</span>
+			<span class="b14">М</span>
+			<span class="b15">Н</span>
+			<span class="b16">О</span>
+			<span class="b17">П</span>
+			<span class="b18">Р</span>
+			<span class="b19">С</span>
+			<span class="b20">Т</span>
+			<span class="b21">У</span>
+			<span class="b22">Ф</span>
+			<span class="b23">Х</span>
+			<span class="b24">Ц</span>
+			<span class="b25">Ч</span>
+			<span class="b26">Ш</span>
+			<span class="b27">Щ</span>
+			<span class="b28">Ъ</span>
+			<span class="b29">Ы</span>
+			<span class="b30">Ь</span>
+			<span class="b31">Э</span>
+			<span class="b32">Ю</span>
+			<span class="b33">Я</span>
+		</div>
+		<div style="width: 500px; margin-top: 200px;">
+			<div class="shadow-sm">"В эфире каритал шоу Поле Чудес! Вам нужно угадать слово"</div>
+			<div style="width: 300px; height: 300px; background-image: url(start.png); background-size: 100% 100%;"></div>
+		</div>
+	</div>
+	
+<script type="text/javascript">
+let x = function(){
+	document.querySelector(".pole").style.display = "none";
+	document.querySelector(".game").style.display = "block"
+}
+	setTimeout(x, 3000);
+	document.querySelector(".b1").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b2").onclick = function(){
+		alert("Правильно");
+		document.querySelector(".b01").style.background = "yellow"
+	}
+	document.querySelector(".b3").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b4").onclick = function(){
+		alert("Правильно");
+		document.querySelector(".b03").style.background = "yellow"
+	}
+	document.querySelector(".b5").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b6").onclick = function(){
+		alert("Правильно");
+		document.querySelector(".b02").style.background = "yellow";
+		document.querySelector(".b07").style.background = "yellow"
+	}
+	document.querySelector(".b7").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b8").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b9").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b10").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b11").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b12").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b13").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b14").onclick = function(){
+		alert("Правильно");
+		document.querySelector(".b04").style.background = "yellow"
+	}
+	document.querySelector(".b15").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b16").onclick = function(){
+		alert("Правильно");
+		document.querySelector(".b05").style.background = "yellow"
+	}
+	document.querySelector(".b17").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b18").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b19").onclick = function(){
+		alert("Неправильно")
+	}
+	document.querySelector(".b20").onclick = function(){
+		alert("Правильно");
+		document.querySelector(".b06").style.background = "yellow"
+	};
+	document.querySelector(".b21").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b22").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b23").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b24").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b25").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b26").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b27").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b28").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b29").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b30").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b31").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b32").onclick = function(){
+		alert("Неправильно")
+	};
+	document.querySelector(".b33").onclick = function(){
+		alert("Неправильно")
+	}
+</script>
+</body>
+</html>
